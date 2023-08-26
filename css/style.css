@@ -104,7 +104,157 @@ line-height: 26px;
     margin-top: 8px;
     background-color: white;
     position: absolute; 
-    bottom: 0;
+    bottom: -8px;
     left: 0;
 }
-/* ეს ხაზი ვერ დავაშორე ლისთს */
+
+
+/* section */
+section{
+    height: 1004px;
+    padding: ;
+    background-image: url(../images/cover\ image.png);
+    
+    background-size: cover;
+    padding: 64px 0;
+    
+}
+.section_div{
+    padding: 48px ;
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+border: 1px solid rgba(176, 82, 181, 0.79);
+background: rgba(28, 19, 37, 0.80);
+backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_div_title{
+color: #FFF;
+text-shadow: 2px 4px 4px rgba(249, 12, 239, 0.71);
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px; /* 81.25% */
+letter-spacing: 4px;
+text-align: center;
+margin-bottom: 80px;
+}
+.contact_form{
+   width: 54%;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   row-gap: 24px;
+   
+} 
+.name_email{
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.nameMail{
+width: 47%;
+padding: 11px 22px;
+background: transparent;
+border-radius: 8px;
+border: 1px solid #B052B5;
+outline: none;
+}
+.select_div{
+
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+.white_label{
+    color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+.select{
+    padding: 11px 22px;
+    background: transparent;
+    border-radius: 8px;
+    border: 1px solid #B052B5;
+    outline: none;
+}
+.radio_div{
+    display: flex;
+    align-items: center;
+     gap: 8px;
+    
+}
+.radio_class{
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    border:2px solid rgba(243, 10, 234, 0.71) ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.radio_class:checked::after{
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-color:white;
+    border-radius: 50%;
+}
+.section_radio_label{
+    color: #B052B5;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+.message_area{
+    height: 112px;
+    border-radius: 8px;
+border: 1px solid #B052B5;
+outline: none;
+background: transparent;
+resize: none;
+
+}
+.letter{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+#receiveletter{
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    border: 2px solid rgba(243, 10, 234, 0.71);
+
+}
+#receiveletter:checked::after{
+    content: "\f00c";
+    font-family: "Font Awsome 6 free";
+    font-weight: 900;
+    font-size: 20px;
+}
+/* icon ვერ შემოვიყვანე */
+.submit_button{
+ padding: 11px 0;
+ color: #FFF;
+ font-family: Poppins;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 700;
+ border-radius: 16px;
+background: #F30AEA;
+border: none;
+}

@@ -1,73 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
+    <script src="https://kit.fontawesome.com/803c8330e5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Home</title>
 </head>
+
 <body>
-<div class="container">
-<!-- contaner -->
-<!-- Header -->
-<header>
-<div class="logo_txt">
-    <img src="images/logo plant.svg" alt="plantlogo" class="logo">
-    <h1 class="logo_title">PLANT SHOP</h1>
+    <div class="container">
+        <!-- contaner -->
+        <!-- Header -->
+        <header>
+            <div class="logo_txt">
+                <a href="index.html"><img src="images/logo plant.svg" alt="plantlogo" class="logo"></a>
+                <h1 class="logo_title">PLANT SHOP</h1>
+            </div>
+
+            <form name="seachrbar" class="search">
+                <input class="search_input" type="search" name="Search" id="search"
+                    placeholder="What are you looking for?">
+                <input class="search_button" type="image" src="images/charm_search.svg" name="" id="">
+
+            </form>
+            <div class="login_shop">
+                <button class="log_in"> <span class="buttontxt">LOG IN</span></button>
+                <img src="images/fluent_cart-16-filled.svg" alt="" class="cart">
+            </div>
+
+        </header>
+        <!-- Navigation -->
+        <nav class="main_nav">
+
+            <ul class="mainnav_ul">
+                <li><a href="index.html" class="list">HOME</a></li>
+                <li><a href="" class="list">ABOUT</a></li>
+                <li><a href="" class="list">SERVICES</a></li>
+                <li><a href="" class="list">PLANT CARE</a></li>
+                <li class=""><a href="" class="list contactlist">CONTACT US</a></li>
+            </ul>
+
+
+        </nav>
+
+        <!-- Section -->
+        <section>
+            
+            <div class="section_div">
+                <h2 class="section_div_title">CONTACT US</h2>
+
+                <form class="contact_form" name="contacts" action="">
+                    <div class="name_email">
+                        <input class="nameMail" type="text" name="Name" id="" placeholder="Name">
+                        <input class="nameMail" type="email" name="Email" placeholder="Email">
+
+                    </div>
+                    <div class="select_div">
+                        <label class="white_label" for="select">Is your question about an existing order?</label>
+                    <select  class="select" name="Select" id="select" >
+                        <option value=""></option>
+                        <option value="YES">YES</option>
+                        <option value="NO">NO</option>
+
+                    </select>
+                    </div>
+                   
+                   <!-- radio -->
+                    <p class="white_label">I have a delivery question about my order</p>
+                   
+                   
+                   
+                   
+                    <div class="radio_div">
+
+                    <input class="radio_class" type="radio" id="radio1" name="RADIO" value="radio1">
+                   <label  class="section_radio_label" for="radio1">I did not receive my order</label>
+                </div>
+                   <div class="radio_div">
+                    <input class="radio_class" type="radio" id="radio2" name="RADIO" value="radio2">
+                   <label  class="section_radio_label" for="radio2">My order is incorrect or arrived damaged</label>
+                   </div>
+                   
+                   <div class="radio_div">
+                    <input class="radio_class" type="radio" id="radio3" name="RADIO" value="radio3">
+                   <label  class="section_radio_label" for="radio1">Cancel my order</label>
+
+                   </div>
+                  <div class="radio_div">
+                    <input class="radio_class" type="radio" id="radio4" name="RADIO" value="radio4">
+                    <label  class="section_radio_label" for="radio4">Change my shipping address</label>
+                  </div>
+                    
+                  
+                  <label class="white_label" for="Message">Please provide more details below.</label>
+                   <textarea class="message_area" name="" id="Message" cols="30" rows="10" placeholder="Message"></textarea>
+                    
+                   <div class="letter">
+                    <input   type="checkbox" value="receiveletter" id="receiveletter" name="receiveletter">
+                   
+                    <label class="white_label" for="receiveletter">I want to receive the newsletter </label>
+                   </div>
+
+                   <button class="submit_button" type="submit">SEND</button>
+
+                </form>
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- <div class="radio_div">
+                        <div class="radio_minidiv">
+                            <input type="radio">
+                            <label for=""></label>
+                        </div>
+                        <div class="radio_minidiv">
+                            <input type="radio">
+                            <label for=""></label>
+                        </div>
+                        <div class="radio_minidiv">
+                            <input type="radio">
+                            <label for=""></label>
+                        </div>
+                        <div class="radio_minidiv">
+                            <input type="radio">
+                            <label for=""></label>
+                        </div>
+
+                    
+                    </div> -->
+
+
+
+
+
+
+        <!-- container -->
     </div>
 
-    <form action="" class="search">
-    <input class="search_input" type="search" name="Search" id="search" placeholder="What are you looking for?">
-    <input class="search_button" type="image" src="images/charm_search.svg" name="" id="">
-
-    </form>
-<div class="login_shop">
-    <button class="log_in"> <span class="buttontxt">LOG IN</span></button>
-    <img src="images/fluent_cart-16-filled.svg" alt="" class="cart">
-</div>
-
-</header>
-<!-- Navigation -->
-<nav class="main_nav">
-
-<ul class="mainnav_ul">
-    <li><a href="index.html" class="list">HOME</a></li>
-    <li><a href="" class="list">ABOUT</a></li>
-    <li><a href="" class="list">SERVICES</a></li>
-    <li><a href="" class="list">PLANT CARE</a></li>
-    <li class=""><a href="" class="list contactlist">CONTACT US</a></li>
-</ul>
-
-
-</nav>
-
-<!-- Section -->
 
 
 
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-    <!-- container -->
-</div>
-    
-
-
-    
 </body>
+
 </html>
