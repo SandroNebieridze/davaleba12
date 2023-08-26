@@ -71,3 +71,40 @@ line-height: 26px;
     background-color: #F30AEA;
     border-radius: 8px;
 }
+/* Navigation */
+
+.main_nav{
+    padding: 15px 21%;
+    background-color: #01ACA9;
+}
+.mainnav_ul{
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+    color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+
+}
+.contactlist{
+    position: relative;
+}
+   
+    
+
+
+.contactlist::after{
+    content: "";
+    height: 2px;
+    width: 100%;
+    margin-top: 8px;
+    background-color: white;
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+}
+/* ეს ხაზი ვერ დავაშორე ლისთს */
