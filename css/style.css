@@ -1,0 +1,73 @@
+.container{
+    max-width: 1440px;
+    width: 100%;
+margin: auto;
+}
+/* header */
+
+header{
+    padding: 34px 5%;
+    background-color: #2E0230;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_txt{
+    width: 7%;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    
+}
+.logo_title{
+    color: #F1ACEE;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+.search{
+    width: 39%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: #FFF;
+    padding-left: 16px;
+    
+}
+.search_input{
+    width: 90%;
+    height: 48px;
+    border: none;
+    outline: none;
+}
+.search_button{
+    padding: 16px;
+    border-radius: 0px 8px 8px 0px;
+     background-color: #01ACA9;
+}
+.log_in{
+    padding: 8px 16px;
+    border-radius: 8px;
+border: 1px solid #F30AEA;
+background-color: transparent;
+}
+.login_shop{
+    display: flex;
+    gap: 8px;
+}
+.buttontxt{
+    color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+.cart{
+    padding: 13px;
+    background-color: #F30AEA;
+    border-radius: 8px;
+}
